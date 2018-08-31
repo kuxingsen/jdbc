@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+<named-config name="testC3p0">
+    <property name = "driverClass" >com.mysql.cj.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/enroll?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false</property>
+    <property name="user">root</property>
+    <property name="password">zws19970423</property>
+</named-config>
+</c3p0-config>
